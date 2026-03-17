@@ -1,38 +1,18 @@
-
-//Primitive Data Type
-
-import java.util.Scanner;
-
-public class primitiveDataType{
+public class primitiveDataType {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        // Direct assignment (no input)
+        byte b = 10;
+        short s = 200;
+        int i = 1000;
+        long l = 50000L;
+        float f = 10.5f;
+        double d = 20.99;
+        char c = 'A';
+        boolean flag = true;
 
-        System.out.print("Enter byte value: ");
-        byte b = sc.nextByte();
+        System.out.println("Values Assigned:");
 
-        System.out.print("Enter short value: ");
-        short s = sc.nextShort();
-
-        System.out.print("Enter integer value: ");
-        int i = sc.nextInt();
-
-        System.out.print("Enter long value: ");
-        long l = sc.nextLong();
-
-        System.out.print("Enter float value: ");
-        float f = sc.nextFloat();
-
-        System.out.print("Enter double value: ");
-        double d = sc.nextDouble();
-
-        System.out.print("Enter character: ");
-        char c = sc.next().charAt(0);
-
-        System.out.print("Enter boolean value (true/false): ");
-        boolean flag = sc.nextBoolean();
-
-        System.out.println("\nValues Entered:");
         System.out.println("Byte: " + b);
         System.out.println("Short: " + s);
         System.out.println("Int: " + i);
@@ -41,6 +21,5 @@ public class primitiveDataType{
         System.out.println("Double: " + d);
         System.out.println("Char: " + c);
         System.out.println("Boolean: " + flag);
-
     }
 }
