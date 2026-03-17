@@ -46,16 +46,8 @@ public class Student{
 
         // Output
         System.out.println("\n----- Student Details -----");
-        System.out.println("USN: " + usn);
+        System.out.println("USN \t  M1 \t M2 \t M3 \t Average \t Grade \t");
 
-        System.out.println("Marks:");
-        System.out.println("Subject 1: " + m1);
-        System.out.println("Subject 2: " + m2);
-        System.out.println("Subject 3: " + m3);
-
-        System.out.println("Average: " + avg);
-        System.out.println("Grade: " + grade);
-
-        sc.close();
+        System.out.println(usn+" \t " + m1 + " \t " + m2 + " \t " + m3 + " \t " + avg + " \t" + grade + " \t ");
     }
 }
