@@ -1,0 +1,7 @@
+package Package;
+
+public class MyClass{
+    public void display(){
+        System.out.println("Hello from my class in mypackage");
+    }
+}
